@@ -1,3 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 .text-block {
     background-color: deeppink;
+    display: block;
+    width: 136px;
+    height: 21px;
+    overflow: hidden;
+}
+
+.text-block:hover {
+    background-color: dodgerblue;
 }
